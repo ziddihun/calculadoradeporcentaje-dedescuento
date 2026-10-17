@@ -123,6 +123,10 @@ p{margin:0 0 14px;max-width:68ch}
 .quick button{font:inherit;font-size:13px;padding:5px 11px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
 .quick button:hover{border-color:var(--accent);color:var(--accent)}
 
+.video{margin-top:8px}
+.video-frame{position:relative;aspect-ratio:16/9;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
 table{width:100%;border-collapse:collapse;font-size:15px;font-variant-numeric:tabular-nums}
 th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
 th{font-weight:600;background:var(--surface)}
@@ -186,6 +190,13 @@ footer{margin:56px 0 32px;padding-top:20px;border-top:1px solid var(--line);colo
             <button class="btn" id="reset" type="button">Borrar</button>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="video" id="video">
+      <h2>Vídeo: cómo usar la calculadora</h2>
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/QM8uGbX5f0I" title="Calculadora de porcentaje de descuento" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </section>
 
